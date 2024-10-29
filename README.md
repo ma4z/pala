@@ -1,5 +1,10 @@
+> [!CAUTION]  
+> **⚠️ Plexactyl reaches end-of-life on November 7th, 2024 ⚠️**  
+> With the release of Heliactyl Next, we have decided to discontinue Plexactyl to start creating, Ninovium.
+>  
+> Ever since Ninotainer acquired Plexactyl, we've been waiting for a new major Heliactyl version to start making Ninovium, our next-generation dashboard. Ninovium will be much more polished and independent than Plexactyl ever could've been.  
 <hr>
-
+<br>
 # Plexactyl • The next generation of dashboards for Pterodactyl
 
 All features:
@@ -14,7 +19,6 @@ All features:
 - API (for bots & other things)
 
 <hr>
-
 # Install Guide
 
 **Caution:** Ensure that Pterodactyl is already configured on a domain or else Plexactyl may not function properly.
@@ -75,7 +79,6 @@ server {
 ```
 
 <hr>
-
 # Additional Configuration
 
 #### **Changing the EGG IDs**:
@@ -121,8 +124,3 @@ Making the dashboard runs on startup:
 - To stop your Plexactyl from running in the background, use `pm2 unstartup`
 
 To stop a currently running Plexactyl instance, use `pm2 stop Plexactyl`
-
-# Legacy Deprecation Notice
-
-Heliactyl has now reached EOL (End Of Life) and should not be used in Production.
-Please update to Plexactyl.
